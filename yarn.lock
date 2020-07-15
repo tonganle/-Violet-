@@ -8664,10 +8664,10 @@ tiny-emitter@^2.0.0:
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
-tinymce@^5.0.7:
-  version "5.0.12"
-  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.0.12.tgz#b9b217f76643b7c6d6066b3ed75936090cbf9e8f"
-  integrity sha512-q3vmWEYRbLRekDX3pZbt39WrRsYokI/mcqHl0qQwq0Lztb/vsjiWUlTievDUN9sl36kgjNxTDnTqCTr6U5dnjg==
+tinymce@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.npm.taobao.org/tinymce/download/tinymce-5.2.2.tgz#1ac77cce1565b54932b4e612d2fd9c07b687f238"
+  integrity sha1-Gsd8zhVltUkytOYS0v2cB7aH8jg=
 
 tmp@0.0.29:
   version "0.0.29"
