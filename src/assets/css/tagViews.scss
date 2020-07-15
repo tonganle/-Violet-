@@ -1,0 +1,41 @@
+.tags-view{
+    background-color: #fff;
+    padding:0 1rem;
+    border-top:0.1rem solid #ddd;
+    border-bottom:0.1rem solid #ddd;
+    box-shadow: 0 0.1rem 0.3rem 0 rgba(0, 0, 0, 0.12), 0 0 0.3rem 0 rgba(0, 0, 0, 0.04);
+}
+.tag-view-item{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border:1px solid #ddd;
+    font-size:1.4rem;
+    padding:0 0.7rem;
+    height:2.6rem;
+    line-height:2.6rem;
+    margin:0.5rem 0 0 1rem;
+    background-color:#fff;
+    border-color:#ddd;
+    color:#333;
+    &:first-of-type{
+        margin-left:1.5rem;
+    }
+    &.active{
+        background-color:#3bca89;
+        a{color:#fff;}
+    }
+    &.active::before{
+        content: '';
+        background: #fff;
+        display: inline-block;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 0.2rem;
+    }
+    .el-icon-close{
+        font-size:1.2rem;
+    }
+}

@@ -1,0 +1,45 @@
+.app-container{
+    padding:1rem 2rem;
+    overflow: auto;
+    min-height: 100%;
+    background-color: #fff;
+}
+.text-center{
+    text-align:center;
+}
+.pointer{
+    cursor: pointer;
+}
+.pagination-container {
+    margin-top: 3rem;
+  }
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.block{
+    display: block;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 6px;
+    height:8px;
+    background-color:#eee;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    background-color: #eee;
+    width:7px;
+    height:8px;
+}
+
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     background: #cfcfcf;
+     box-shadow:inset 0px 1px 1px rgba(240, 240, 240, 0.5);
+}

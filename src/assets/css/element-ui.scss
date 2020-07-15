@@ -1,0 +1,454 @@
+/*
+关于解决缩小行高
+*/
+.el-form-item {
+    margin-bottom: 1.5rem !important;
+}
+
+.el-table td {
+    padding: 0.6rem 0;
+}
+
+.el-table th {
+    padding: 0.8rem 0;
+}
+
+//关于解决缩小行高  end
+
+
+// 表格中 日期控件 居中
+.el-table .el-date-editor .el-input__inner {
+    text-align: center !important;
+}
+
+// 表格中 日期控件 100%
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+    width: 100%;
+}
+
+.cbox .el-form .el-row .el-col {
+    margin: 0 1.5rem 0 0;
+
+}
+
+.cbox .el-form .el-row .el-col:nth-last-child(2) {
+    margin: 0;
+}
+
+//   .cBox .el-form .el-row .el-col:first-child .el-form-item .el-form-item__label {
+//     text-align: left;
+//     padding:0;
+//     width: 50px!important;
+//   }
+
+/*
+*用于覆盖elementUI的一些样式
+*/
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+    border-color: #525252;
+}
+
+.el-menu {
+    border-right: none;
+}
+
+
+// el-scrollbar
+.el-scrollbar {
+    height: 100%;
+}
+
+.el-scrollbar__wrap {
+    overflow: auto !important;
+}
+
+// el-scrollbar
+
+
+
+
+/*
+将原有px的设置改为rem
+*/
+.el-form-item {
+    margin-bottom: 2.2rem;
+}
+
+.el-form-item__label {
+    font-size: 1.4rem;
+    line-height: 3.4rem;
+}
+
+//这两个是一致的
+.el-form-item__content {
+    font-size: 1.4rem;
+    line-height: 3.4rem;
+}
+
+.el-form-item--mini.el-form-item,
+.el-form-item--small.el-form-item {
+    margin-bottom: 1.8rem;
+}
+
+.el-menu-item {
+    font-size: 1.4rem;
+    padding: 0 2rem;
+}
+
+.el-submenu__title {
+    font-size: 1.4rem;
+}
+
+.el-submenu__icon-arrow {
+    right: 2rem;
+}
+
+.el-breadcrumb {
+    font-size: 1.4rem;
+}
+
+.el-dropdown {
+    font-size: 1.4rem;
+}
+
+.el-input {
+    font-size: 1.4rem;
+}
+
+.el-input--mini {
+    font-size: 1.2rem;
+}
+
+.el-form-item__error {
+    font-size: 1.2rem;
+    padding-top: 0rem;
+}
+
+.el-form--inline .el-form-item {
+    margin-right: 1rem;
+}
+
+.el-menu-item,
+.el-submenu__title {
+    height: 5.6rem;
+    line-height: 5.6rem;
+}
+
+.el-form-item__label {
+    font-size: 1.4rem;
+}
+
+.el-form-item__label {
+    font-size: 1.4rem;
+    padding: 0 1.2rem 0 0;
+}
+
+.el-table .cell {
+    line-height: 2.3rem;
+}
+
+.el-table .cell,
+.el-table th div,
+.el-table--border td:first-child .cell,
+.el-table--border th:first-child .cell {
+    padding-left: 1rem;
+}
+
+.el-table .cell,
+.el-table th div {
+    padding-right: 1rem;
+}
+
+.el-table {
+    font-size: 1.4rem;
+}
+
+.el-button {
+    font-size: 1.4rem;
+}
+
+// .el-button {
+//     padding: 0 1.5rem;
+//     height: 2.8rem;
+// }
+.el-button.is-round {
+    border-radius: 2rem;
+    padding: 1.2rem 2.3rem;
+}
+
+.el-input--small .el-input__inner {
+    height: 3.2rem;
+    line-height: 3.2rem;
+}
+
+.el-button--mini,
+.el-button--small {
+    font-size: 1.2rem;
+}
+
+.el-button--small,
+.el-button--small.is-round {
+    padding: 0.9rem 1.5rem;
+}
+
+.el-button--mini,
+.el-button--mini.is-round {
+    padding: 0.7rem 1.5rem;
+}
+
+.el-input__inner {
+    padding: 0 1.5rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+    margin: 0 0.5rem;
+    min-width: 3rem;
+}
+
+.el-pager li {
+    padding: 0 0.4rem;
+    font-size: 1.3rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+}
+
+.el-menu-item [class^=el-icon-] {
+    margin-right: 0.5rem;
+    width: 2.4rem;
+    font-size: 1.8rem;
+}
+
+.el-submenu [class^=el-icon-] {
+    margin-right: 0.5rem;
+    width: 2.4rem;
+    font-size: 1.8rem;
+}
+
+// splitter-pane
+.splitter-pane-resizer.vertical {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.splitter-pane-resizer.horizontal {
+    height: 1.1rem;
+    margin: -0.5rem 0;
+}
+
+.el-tree-node__content {
+    height: 2.6rem;
+}
+
+.el-tree-node__content>.el-tree-node__expand-icon {
+    padding: 0.6rem;
+}
+
+.el-tabs--bottom .el-tabs--left .el-tabs__item:last-child,
+.el-tabs--bottom .el-tabs--right .el-tabs__item:last-child,
+.el-tabs--bottom.el-tabs--border-card .el-tabs__item:last-child,
+.el-tabs--bottom.el-tabs--card .el-tabs__item:last-child,
+.el-tabs--top .el-tabs--left .el-tabs__item:last-child,
+.el-tabs--top .el-tabs--right .el-tabs__item:last-child,
+.el-tabs--top.el-tabs--border-card .el-tabs__item:last-child,
+.el-tabs--top.el-tabs--card .el-tabs__item:last-child {
+    padding-right: 2rem;
+}
+
+.el-tabs__item {
+    padding: 0 2rem;
+    //height:4rem;
+    //line-height:4rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    font-size: 1.4rem;
+}
+
+.el-submenu .el-menu-item {
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.el-dialog__body {
+    padding: 3rem 2rem;
+    color: #606266;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+}
+
+.el-dialog__footer {
+    //弹出框内的element的el-dialog__footer
+    padding: 1rem 2rem 2rem;
+}
+
+/*
+因有些是dialog footer的保存关闭按钮和dialog不在一个页面,有可能dialog内为组件，
+那么就没有办法用element提供的 slot="footer" class="dialog-footer"  
+以下为模拟element的el-dialog__footer
+*/
+.el-dialog__body .el-dialog__footer {
+    //自定义的弹出框的子组件的footer class
+    padding: 4rem 0 0; //el-dialog__body的3rem和el-dialog__body的1rem
+    margin-bottom: -1rem !important;
+
+    .el-form-item {
+        margin-bottom: 0 !important;
+    }
+}
+
+.el-radio+.el-radio {
+    // margin-left:3rem;//原值
+    // margin-left:2rem;
+}
+
+.el-radio,
+.el-radio--medium.is-bordered .el-radio__label {
+    font-size: 1.4rem;
+}
+
+.el-radio__label {
+    font-size: 1.4rem;
+    // padding-left:1rem;//原值
+    padding-left: 0.8rem;
+}
+
+.el-radio__inner {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.el-radio__inner::after {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.el-checkbox {
+    font-size: 1.4rem;
+}
+
+.el-checkbox__label {
+    padding-left: 1rem;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+.el-form-item--mini .el-form-item__error {
+    padding-top: 0.1rem;
+}
+
+.el-input--mini .el-input__inner {
+    height: 28px;
+    line-height: 28px;
+}
+
+.el-table--mini,
+.el-table--small,
+.el-table__expand-icon {
+    font-size: 1.2rem;
+}
+
+.el-table th div {
+    line-height: 4rem;
+}
+
+.el-checkbox+.el-checkbox {
+    margin-left: 3rem;
+}
+
+.el-table__body tr.current-row>td {
+    background-color: #5786EE;
+    color: #fff;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: #5786EE;
+    color: #fff;
+}
+
+.el-form .el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: #fff;
+    color: #666;
+}
+
+.el-form .el-table__body tr.current-row>td {
+    background-color: #fff;
+    color: #666;
+}
+
+.splitter-pane-resizer.vertical {
+    width: 0 !important;
+}
+
+.splitter-pane.vertical.splitter-paneL {
+    padding-right: 0 !important;
+}
+
+.splitter-pane.vertical.splitter-paneR {
+    padding-left: 0 !important;
+}
+
+.el-tabs--border-card>.el-tabs__header {
+    background-color: #E9ECF5;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+    box-sizing: border-box;
+    height: 3.3rem;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+    color: #666;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    box-sizing: border-box;
+    height: 3.3rem;
+    border-top: 2px solid #5786EE;
+}
+
+.el-table th {
+    background-color: #e5e5e5;
+}
+
+.el-table td {
+    width: 100%;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.el-menu .is-active {
+    color: #fff !important;
+}
+
+.splitter-pane-resizer.vertical {
+    cursor: e-resize !important;
+}
+
+// split-pane 左侧不遮住左侧的滚动条
+.splitter-pane-resizer.vertical {
+    margin-left: 0 !important;
+}
+
+.el-pagination {
+    text-align: right;
+    padding: 0.5rem 0 0 0 // margin-top:1.5rem 
+}
+
+.el-tooltip__popper {
+    max-width: 65%;
+}
+
+
+// 表格 行 可点击则展示pointer
+.el-table__row {
+    cursor: pointer;
+}
+
+// 为了避免el-option的内容过长，导致el-select-dropdown超出el-select的宽度。因el-select-dropdown含有min-width,我们手动设置比min-width小的宽度，则会自动使用min-width(该min-width为select的宽度)
+.el-select-dropdown {
+    width: 1px;
+}
