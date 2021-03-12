@@ -24,7 +24,7 @@
     "install": "^0.13.0",
     "jquery": "^3.3.1",
     "js-base64": "^2.4.8",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "mockjs": "^1.0.1-beta3",
     "screenfull": "^4.0.1",
     "tinymce": "^5.0.7",
